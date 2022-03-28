@@ -1,0 +1,302 @@
+.border {
+border-color: #797879;
+}
+
+body {
+background-color: #222;
+font-family: 'Lucida Grande','Lucida Sans Unicode','Helvetica','Arial';
+}
+body.front div.container {
+background: url("../images/web-Bg.jpg") no-repeat scroll center -130px #C5AF99;
+font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+}
+div.container {
+margin: 0 auto;
+background-color: #fff;
+}
+
+div.header {
+background-color: #4C4E4C;
+}
+
+div.logo img {
+padding: 10px 20px;
+}
+
+div.spacer {
+	min-height: 300px;
+	height: 100%;
+	max-height: 500px;
+}
+div.popmenu {
+text-align: center;
+padding-left: 100px;
+height: 60px;
+}
+
+div.popmenu a {
+display: block;
+float: left;
+width: 100px;
+height: 44px;
+padding: 9px 16px 0 7px;
+text-align: left;
+background: url("../images/green-button.png") no-repeat scroll left top transparent;
+color: white;
+text-decoration: none;
+font-weight: bold;
+line-height: 1.2em;
+}
+div.popmenu a.threeline {
+padding-top: 2px;
+height: 51px;
+}
+
+div.frontcontent {
+background: url("../images/semi-transparent-black-bg.png") repeat scroll left top transparent;
+padding-top: 8px;
+}
+div.innermenu {
+font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+margin-top: 45px;
+background: url("../images/blue-gradient.png") repeat-y scroll left top transparent;
+height: 26px;
+position: relative;
+margin-left: -50px;
+padding-left: 50px;
+}
+body.front div.innermenu {
+margin: 0 30px 5px;
+padding-left: 10px;
+background-image: none;
+background-color:#2A76BC;
+}
+
+div.innermenu a {
+background: url("../images/green-dot.png") no-repeat scroll 5px center transparent;
+padding: 5px 5px 5px 17px;
+text-decoration: none;
+text-transform: uppercase;
+color: #fff;
+line-height: 26px;
+font-weight: bold;
+}
+
+div.innermenu form input{
+padding: 0; margin: 0;
+}
+
+div.innermenu form {
+position: absolute;
+top: 150px;
+right: 10px;
+}
+body.front div.innermenu form {
+top: 5px;
+}
+
+div.innermenu form input.form-submit {
+width: 57px;
+height: 17px;
+border: 0;
+background: url("../images/search-button.png") no-repeat scroll center left transparent;
+color:transparent;
+}
+#search label {
+	display:none;
+}
+
+div.frontcontent {
+color: #d3d3d3;
+}
+div.frontcontent ul a {
+font-weight: bold;
+text-decoration: none;
+color: #f6f6f6;
+}
+div.frontcontent ul a:hover {
+text-decoration: underline;
+}
+div.frontcontent h4 {
+text-transform: uppercase;
+color: #19A3CF;
+border-bottom: 1px dotted #d3d3d3;
+margin-bottom: 0.4em;
+font-size: 1em;
+font-weight: bold;
+padding: 2px;
+}
+
+div.frontcontent ul {
+padding: 0;
+margin: 0;
+list-style-image: url("../images/blue-angle.png");
+font-size: 0.9em;
+padding-left: 18px;
+line-height: 1.2em;
+}
+
+div.frontcontent ul li{
+padding-bottom: 3px;
+}
+
+div.footer {
+color: #aaa;
+background-color: #000;
+width: 850px;
+margin: 0 auto;
+padding: 5px 50px;
+font-size: 0.9em;
+}
+
+div.contentwrapper {
+font-size: 90%;
+}
+
+div.contentimage {
+height: 94px;
+background: url("../images/blue-banner.gif") no-repeat scroll center center #fff;
+}
+
+div.leftsidebar {
+font-size: 1.1em;
+min-height: 475px;
+}
+div.maincontent {
+min-height: 380px;
+font-size: 1.1em;
+}
+div.maincontent div.wrap{
+padding: 5px 20px;
+}
+div.leftsidebar h4 {
+margin: 10px 0 10px 5px;
+padding-left: 5px;
+background-color: #8C9EA4;
+color: #fff;
+line-height: 1.9em;
+}
+
+div.leftsidebar ul {
+list-style-image: url("../images/bluearrow.gif");
+}
+
+div.leftsidebar a{
+text-decoration: none;
+padding
+}
+div.leftsidebar li.active a {
+background-color: #2C76BC;
+color: #fff;
+}
+
+
+div.rightsidebar div.block {
+padding: 10px 5px;
+}
+
+div.rightsidebar h4 {
+font-weight: bold;
+font-size: 1.2em;
+padding-left: 15px;
+margin-bottom: 0.5em;
+background: url("../images/bluearrow.gif") no-repeat scroll left center transparent;
+color: #333;
+}
+
+div.rightsidebar {
+color: #666;
+margin-top: 30px;
+}
+
+div.more {
+padding: 5px;
+text-align: right;
+}
+div.more a{
+padding-right: 15px;
+background: url("../images/bluearrow.gif") no-repeat scroll right center transparent;
+color: #333;
+text-decoration: none;
+}
+
+div.node.half {
+float: left;
+width: 47%;
+padding-left: 3px;
+padding-right: 1%;
+margin-right: 1%;
+border: 1px solid #ddd;
+background-color: #f6f6f6;
+font-size: 0.9em;
+height: 80px;
+overflow: hidden;
+}
+div.node.half h2{
+font-size: 1.2em;
+font-weight: bold;
+padding: 5px 0;
+}
+div.node.half h2 a{
+text-decoration: none;
+}
+
+/*
+div.node.half:nth-child(even) {
+clear: both;
+}
+*/
+
+li.dhtml-menu {
+position: relative;
+}
+.plus {
+display: block;
+height: 15px;
+width: 15px;
+overflow: hidden;
+position: absolute;
+left: -20px;
+}
+div.leftsidebar ul.menu {
+padding-left: 0.7em;
+}
+/*
+ul li.expanded {
+list-style-image: url("../images/expanded.gif");
+}
+ul li.collapsed {
+list-style-image: url("../images/collapsed.gif");
+}
+ul li.leaf {
+list-style-image: url("../images/body.gif");
+}
+*/
+
+
+/* For slideshow - Simple jQuery Slideshow Script - slideSwitch*/
+/*** set the width and height to match your images **/
+
+#slideshow {
+    position:relative;
+    height:250px;
+    width:500px;
+}
+
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+}
+
